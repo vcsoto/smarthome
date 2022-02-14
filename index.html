@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c4ecc9e304.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="head-logo">
+            <img src="img/LOGO_SWICHERS.png">
+        </div>
+        <div class="menubox">
+            <ul>
+                <li><a href="menu.html">inicio</a></li>
+                <li><a href="#">productos</a>
+                <li><a href="#">servicios</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+        </div>
+        <button onclick="menuscroll()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <section class="sectiontop">
+        <main class="portada">
+            <div class="widget">
+                <h1>Tu hogar o negocio
+                    un espacio inteligente</h1>
+                <!--<!~~ Swiper ~~>-->
+                <div class="swiper mySwipertop">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h2>Controla tus dispositvos</h2>
+                            <p>Nuestra gama de productos se adapta al tipo
+                                de automatizacion que necesitas y te
+                                permite integrar tus dispositivos</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2>Smart home</h2>
+                            <p>Nuestros producto se integra a sistemas<br>
+                                de audio, video, seguridad, persianas,<br>
+                                aire acondicionado, riego
+                                y accesos.</p>
+                        </div>
+                    </div>
+                    <!--<!~~ Add Pagination ~~>-->
+                    <div class="swiper-pagination"></div>
+                    <!--<!~ Add Arrows ~>-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="widget"></div>
+        </main>
+    </section>
+    <section>
+        <main class="descripcion">
+            <h1>¿Como Funciona?</h1>
+            <p>Hoy en día muchos dispositivos que se utilizan cotidianamente, incorporan una o mas tecnologías en redes inalámbricas como lo es la Radio Frecuencia, Bluetooth, WiFi, zigbee, zigwave entre otros, las cuales facilitan que estos mismos puedan ser controlados o monitoriados mediante un smartphone, tablet o PC.</p>
+        </main>
+        <main class="beneficios">
+            <div class="widget">
+                <img src="img/ico_svg-1.svg">
+                <div class="text">
+                    <h1>SIMPLE SETUP</h1>
+                    <p>Tecnología de fácil instalación</p>
+                </div>
+            </div>
+            <div class="widget">
+                <img src="img/ico_svg-2.svg">
+                <div class="text">
+                    <h1>AHORRO DE ENERGIA</h1>
+                    <p>con tecnologia LED<br>
+                        ahorra el cosumo de watts</p>
+                </div>
+            </div>
+            <div class="widget">
+                <img src="img/ico_svg-3.svg">
+                <div class="text">
+                    <h1>WIRELESS</h1>
+                    <p>Conectividad inalámbrica</p>
+                </div>
+            </div>
+            <div class="widget">
+                <img src="img/ico_svg-4.svg">
+                <div class="text">
+                    <h1>FACIL CONTROL</h1>
+                    <p>Diseño fácil de utilizar</p>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <main class="tabs-utilidades">
+            <div class="tab">
+                <button class="tablinks active" id="london"><i class="far fa-lightbulb"></i></button>
+                <button class="tablinks" id="paris"><i class="fas fa-door-open"></i></button>
+                <button class="tablinks" id="tokyo"><i class="fas fa-temperature-high"></i></button>
+                <button class="tablinks" id="rusia"><i class="fas fa-broadcast-tower"></i></button>
+                <button class="tablinks" id="rio"><i class="fas fa-compact-disc"></i></button>
+            </div>
+            <div class="tabcontent" id="london">
+                <div class="tabcontent-m">
+                    <div class="imagen">
+                        <img src="img/AdobeStock_459653295_Preview.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Ilimunación</h2>
+                        <h3>personaliza tu hogar</h3>
+                        <p><i class="far fa-circle"></i> Enciende y apaga luces de
+                            manera automatica</p>
+                        <p><i class="far fa-circle"></i> Contrala la intensidad de ilumicación</p>
+                        <p><i class="far fa-circle"></i> Cambie el color de sus luces</p>
+                    </div>
+                </div>
+            </div>
+            <div id="paris" class="tabcontent">
+                <div class="tabcontent-m">
+                    <div class="imagen">
+                        <img src="img/AdobeStock_460508900_Preview.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Puertas</h2>
+                        <h3>tu espacio seguro</h3>
+                        <p><i class="far fa-circle"></i> Abra y cierre cerrojos remotamente</p>
+                        <p><i class="far fa-circle"></i> Programe alarmas de seguridad</p>
+                        <p><i class="far fa-circle"></i> Reciba notificaciones cuando una puerta es abierta</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tokyo" class="tabcontent">
+                <div class="tabcontent-m">
+                    <div class="imagen">
+                        <img src="img/AdobeStock_449429596_Preview.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Calefacción</h2>
+                        <h3>un espacio de confort</h3>
+                        <p><i class="far fa-circle"></i> Detecta cambio de temperatura</p>
+                        <p><i class="far fa-circle"></i> Encienda su calefaccion de manera automatica</p>
+                        <p><i class="far fa-circle"></i> Programe dispositivos que enciendan al detectar mayor o menor temperatura</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rusia" class="tabcontent">
+                <div class="tabcontent-m">
+                    <div class="imagen">
+                        <img src="img/AdobeStock_212201920_Preview.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Sensores</h2>
+                        <h3>se adapta a tu ritmo</h3>
+                        <p><i class="far fa-circle"></i> Encienda luces o dispositvos al entrar a una habitacion</p>
+                        <p><i class="far fa-circle"></i> Reciba notificaciones al detectar movimiento</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rio" class="tabcontent">
+                <div class="tabcontent-m">
+                    <div class="imagen">
+                        <img src="img/AdobeStock_404663355_Preview.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Music On</h2>
+                        <h3>crea tu atmosfera</h3>
+                        <p><i class="far fa-circle"></i> Personalize encendido</p>
+                        <p><i class="far fa-circle"></i> Ordene por comandos de voz</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <main class="gp-productos">
+            <div class="box-shadow">
+                <nav class="tabs">
+                    <div class="selector"></div>
+                </nav>
+            </div>
+        </main>
+        <script type="text/javascript" src="js/scrollmenu.js"></script>
+        <script type="text/javascript" src="js/swiperSlide.js"></script>
+        <script type="text/javascript" src="js/javatabs.js"></script>
+        <script type="module" src="js/index.js"></script>
+    </section>
+</body>
+
+</html>
