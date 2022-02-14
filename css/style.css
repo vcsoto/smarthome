@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+@media(max-width: 576px) {
+    * {
+        font-size: 14px
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+    background-color: #fafafa;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #292B38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 4vw 0;
+}
+
+main {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 1366px) {
+    * {
+        font-size: 18px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Montserrat&family=Open+Sans:wght@300;400;600&display=swap');
+
+/*
+font-family: 'Assistant', sans-serif;
+font-weight: 300
+font-weight: 400
+font-family: 'Open Sans', sans-serif;
+font-weight: 300
+font-weight: 400
+font-weight: 600
+font-family: 'Montserrat', sans-serif;
+font-weight: 100
+font-weight: 400
+font-weight: 700
+*/
+
+.head-logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.head-logo img {
+    height: 100%;
+}
+
+/*--------   menu   -----------*/
+
+header button {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #292B38;
+}
+
+header button i {
+    color: #292B38;
+    font-size: 2rem;
+}
+
+
+.menubox {
+    background: #292B38;
+    width: 80%;
+    height: 60px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menubox ul {
+    width: 50%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menubox ul li {
+    display: inline-block;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.menubox ul li a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menubox ul li a:hover {
+    color: lightblue;
+    transition: .5s;
+}
+
+@media (max-width: 576px) {
+
+    header {
+        height: 60px;
+    }
+
+    .head-logo {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    header button {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        z-index: 100;
+    }
+
+    .menubox {
+        position: absolute;
+        background: #292B38;
+        top: 0;
+        right: 0;
+        width: 0;
+        overflow: hidden;
+        height: 100vh;
+        transition: all 500ms ease;
+        margin-right: 0;
+        z-index: 99;
+    }
+
+    .menubox ul {
+        width: 100%;
+        height: 240px;
+        background: #292B38;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .menubox ul li {
+        text-align: left;
+        border-bottom: 1px solid#484B5D;
+    }
+}
+
+/* ------------- SLIDERTOP----------------- */
+
+section.sectiontop {
+    padding-top: 0;
+}
+
+main.portada {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, rgba(99, 83, 52, 0.5)25%, rgba(255, 255, 255, 0)40%), url(../img/3d-rendering-modern-dining-room-and-living-room-with-luxury-decor.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 70px;
+}
+
+main.portada .widget {
+    width: 40%;
+    height: auto;
+}
+
+
+main.portada .widget h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: #635334 0px 5px 5px;
+}
+
+main.portada .widget p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+img.logodis {
+    width: auto;
+    height: 25px;
+    margin-left: 20px;
+}
+
+@media(max-width: 576px) {
+    main.portada {
+        padding-top: 30px;
+        flex-wrap: wrap;
+        background: linear-gradient(to bottom, rgba(99, 83, 52, 0.5)25%, rgba(255, 255, 255, 0)40%), url(../img/3d-rendering-modern-dining-room-and-living-room-with-luxury-decor.jpg) no-repeat center center;
+    }
+
+    main.portada .widget {
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+/*-------slider portada-------------*/
+
+.swiper.mySwipertop {
+    width: 85%;
+    height: auto;
+    border-radius: 5px;
+    /*background-color: rgba(41, 43, 56, 0.5);*/
+}
+
+.swiper-slide {
+    height: auto;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
+}
+
+span.swiper-pagination-bullet {
+    background: #fff;
+    width: 10%;
+    height: 8px;
+    border-radius: 5px;
+    transition: opacity 1s ease;
+}
+
+.swiper-slide h2 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.swiper-slide p {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+@media(max-width: 576px) {
+    .swiper.mySwipertop {
+        width: 95%;
+        padding: 10px 10px 30px 10px;
+        background-color: rgba(214, 200, 174, 0.9);
+        margin-top: 50px;
+    }
+
+    .swiper-slide {
+        color: #000;
+    }
+}
+
+/*---------------- SECTION CONTENIDO FUNCION --------------*/
+
+main.descripcion h1 {
+    width: 50%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+main.descripcion p {
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+@media(max-width: 576px) {
+
+    main.descripcion h1,
+    main.descripcion p {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+}
+
+/*---------------- WIDGETS BENEFICIOS ----------------*/
+/*---------------- WIDGETS BENEFICIOS ----------------*/
+
+main.beneficios {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main.beneficios .widget {
+    width: 24%;
+    height: auto;
+    display: flex;
+}
+
+main.beneficios .widget img {
+    width: 20%;
+}
+
+main.beneficios .widget .text {
+    margin-left: 10px;
+}
+
+main.beneficios .widget .text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+main.beneficios .widget .text p {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+@media(max-width: 576px) {
+
+    main.beneficios {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    main.beneficios .widget {
+        width: 50%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    main.beneficios .widget .text {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/*---------------SECTION TABS -------------------*/
+
+/*--------------- SECTION TABS UTILIDADES ---------------*/
+
+
+main.tabs-utilidades {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Style the tab */
+main.tabs-utilidades .tab {
+    width: 100px;
+    height: 60vh;
+}
+
+/* Style the buttons inside the tab */
+main.tabs-utilidades .tab button {
+    background-color: inherit;
+    width: 100%;
+    height: 20%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: 1px solid #0A325C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+main.tabs-utilidades .tab button i {
+    font-size: 2rem;
+}
+
+/* Change background color of buttons on hover */
+main.tabs-utilidades .tab button:hover {
+    color: #0A325C;
+    /*background-color: #ddd;*/
+}
+
+/* Create an active/current tablink class */
+main.tabs-utilidades .tab button.active {
+    background-color: #0A325C;
+    color: #fff;
+}
+
+/* Style the tab content */
+main.tabs-utilidades .tabcontent {
+    display: none;
+    width: calc(100% - 100px);
+}
+
+main.tabs-utilidades .tabcontent#london {
+    display: block;
+}
+
+main.tabs-utilidades .tabcontent-m {
+    display: flex;
+    height: 60vh;
+}
+
+main.tabs-utilidades .tabcontent-m .imagen {
+    width: 70%;
+    overflow: hidden;
+}
+
+main.tabs-utilidades .tabcontent-m .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main.tabs-utilidades .tabcontent-m .text {
+    width: 30%;
+    height: auto;
+    background-color: #0A325C;
+    color: #fff;
+    padding: 30px;
+}
+
+main.tabs-utilidades .tabcontent-m .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+main.tabs-utilidades .tabcontent-m .text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+main.tabs-utilidades .tabcontent-m .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+main.tabs-utilidades .tabcontent-m .text p i {
+    font-size: .6rem;
+}
+
+@media(max-width: 810px) {
+
+    main.tabs-utilidades {
+        display: block;
+        width: 100%;
+    }
+
+    main.tabs-utilidades .tab {
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+
+    main.tabs-utilidades .tab button {
+        background-color: inherit;
+        width: 20%;
+        border-bottom: 1px solid #fff;
+    }
+
+    main.tabs-utilidades .tabcontent {
+        width: 100%;
+    }
+
+    main.tabs-utilidades .tabcontent-m {
+        display: block;
+        height: auto;
+    }
+
+    main.tabs-utilidades .tabcontent-m .imagen {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    main.tabs-utilidades .tabcontent-m .text {
+        width: 100%;
+    }
+}
+
+/*----------GALERIA DE PRODUCTOS---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+main.gp-productos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+main.gp-productos .box-shadow {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+main.gp-productos nav.tabs {
+    font-size: 1rem;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    height: auto;
+}
+
+main.gp-productos .tabs a {
+    text-decoration: none;
+    color: #777;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.6s;
+    font-size: 16px;
+}
+
+main.gp-productos .tabs a.active {
+    color: #000;
+}
+
+main.gp-productos .tabs .selector {
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 50px;
+    transition-duration: 0.6s;
+    background: #8ACF0B;
+}
+
+main.gp-productos .tabcontent {
+    display: none;
+    width: 100%;
+}
+
+main.gp-productos .tabcontent#Todo {
+    display: block;
+}
+
+main.gp-productos .main-w {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2vw;
+    flex-wrap: wrap;
+}
+
+main.gp-productos .widget {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    margin-left: 2%;
+}
+
+main.gp-productos .widget:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+}
+
+main.gp-productos .widget img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+main.gp-productos .widget i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: #8ACF0B;
+    z-index: 1;
+}
+
+main.gp-productos .widget .cont {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+main.gp-productos .widget .cont p {
+    padding: 20px;
+    text-align: center;
+    color: #555454;
+    font-size: .9rem;
+    text-align: left;
+}
+
+@media(max-width: 576px) {
+
+    main.gp-productos nav.tabs {
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        height: 80px;
+        align-items: center;
+    }
+
+    main.gp-productos .tabs .selector {
+        display: none;
+    }
+
+    main.gp-productos .tabs a.active {
+        color: #fff;
+        border-radius: 5px;
+        background-color: #8ACF0B;
+        margin: 0 15px;
+    }
+
+    main.gp-productos .main-w {
+        flex-direction: column;
+    }
+
+    main.gp-productos .widget {
+        width: 95%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    main.gp-productos .widget .cont {
+        height: auto;
+    }
+
+    main.gp-productos .widget h1 {
+        font-size: 20px;
+    }
+
+    main.gp-productos .widget .cont p {
+        font-size: .9rem;
+    }
+}

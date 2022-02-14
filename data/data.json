@@ -1,0 +1,166 @@
+{
+    "section": [
+    {
+        "seccion": "Todo",
+        "producto": [
+        {
+            "nombre": "Insteon Hub II",
+            "descripcion": "Se requiere para controlar cualquier dispositivo Insteon desde: tablets, smartphones, por internet. Compatible con Alexa y Google (Control por voz)",
+            "imagen": "img/Hub01_1024x1024.png"
+        },
+        {
+            "nombre": "Insteon Garage Door Control",
+            "descripcion": "Con este Kit se podrá operar la puerta de Garage y además saber el status de Cerrado / Abierto",
+            "imagen": "/img/532577_2a303ce54c86442db669ab34ab20f1f9_mv2.webp"
+        }]
+    },
+    {
+        "seccion": "Hub",
+        "producto": [
+        {
+            "nombre": "Insteon Hub II",
+            "descripcion": "Se requiere para controlar cualquier dispositivo Insteon desde: tablets, smartphones, por internet. Compatible con Alexa y Google (Control por voz)",
+            "imagen": "/img/Hub01_1024x1024.png"
+        },
+        {
+            "nombre": "Insteon Garage Door Control",
+            "descripcion": "Con este Kit se podrá operar la puerta de Garage y además saber el status de Cerrado / Abierto",
+            "imagen": "/img/532577_2a303ce54c86442db669ab34ab20f1f9_mv2.webp"
+        }]
+    },
+    {
+        "seccion": "Paneles",
+        "producto": [
+        {
+            "nombre": "Insteon Keypadlinc 6",
+            "descripcion": "Controlador remoto de pared de 6 botones. Dimmer, ajuste de velocidad, tope de intensidad, liga con cualquier equipo, hace escenarios. Un botón cuanta con carga de 600 watts y los demás son funciones remotas",
+            "imagen": "/img/532577_d72beb7e872247c1b57b308a0d9942ce_mv2.jpg"
+        },
+        {
+            "nombre": "Insteon Keypadlinc 8",
+            "descripcion": "Controlador remoto de pared de 8 botones. Dimmer, ajuste de velocidad, tope de intensidad, liga con cualquier equipo, hace escenarios. Un botón cuanta con carga de 600 watts y los demás son funciones remotas",
+            "imagen": "/img/532577_7d912afbd7544b78be94e6b898589adb_mv2.jpg"
+        }]
+    },
+    {
+        "seccion": "Controles",
+        "producto": [
+        {
+            "nombre": "Insteon Remotelinc",
+            "descripcion": "Control remoto inalámbrico con 8 botones realiza comandos simples y escenas configurable con HouseLinc 2 (2413UH) baterias de lithio recargables. Ideal para abrir el garage desde tu Auto o encender o apagar las luces necesarias cuando llegas o sales de tu hogar",
+            "imagen": "/img/image-asset.png"
+        }]
+    },
+    {
+        "seccion": "interruptores",
+        "producto": [
+        {
+            "nombre": "Insteon Wall Switches",
+            "descripcion": "Apagador de pared 1boton, Hay 2 Modelos ON/OFF y dimmer, emite y recibe Radio Frecuencia liga con cualquier equipo. Para luminarias fluorescentes o aplicaciones eléctricas como bombas, ventiladores, etc. 1800watts",
+            "imagen": "/img/wireless-switch.png"
+        },
+        {
+            "nombre": "Insteon Outlet",
+            "descripcion": "Receptaculo para aparatos eléctricos. Función on/off, especial para exteriores, incluso contra lluvia, ideal para fuentes, bombas, luces navideñas. Entra en escenarios. Hasta 15 amp 1800 watts",
+            "imagen": "/img/OutletLinc+-+INSTEON+Remote+Control+Outlet.png"
+        }]
+    },
+    {
+        "seccion": "Receptores",
+        "producto": [
+        {
+            "nombre": "Insteon Appliancelinc",
+            "descripcion": "Receptor para aparatos eléctricos. 2 modelos ON/OFF 1800 watts ó ON/OFF y Dimmer 300 watts, se conecta el receptor a la corriente eléctrica y el aparato a controlar en él. Cuenta con botones para On/Off manual",
+            "imagen": "/img/532577_cfa1cc2de4a543a8bf9a69a703601605_mv2.jpg"
+        },
+        {
+            "nombre": "Insteon Appliancelinc Outdoor",
+            "descripcion": "Receptor para aparatos eléctricos. Función on/off, especial para exteriores, incluso contra lluvia, ideal para fuentes, bombas, luces navideñas. Entra en escenarios. Hasta 15 amp 1800 watts. Dual Band",
+            "imagen": "/img/532577_71f3b3c291944462958fe276ac1a0ea5_mv2.jpg"
+        },
+        {
+            "nombre": "Insteon Ceiling Fan",
+            "descripcion": "Receptor oculto en linea dimmer/relay. Sirve para controlar los ventiladores que cuenten con ilumianción independiente, con este equipo puede controlar el motor (3 Velocidades) y la iluminación de un mismo ventilador",
+            "imagen": "/img/532577_a35c18a8bf6d40c59206a02d177adcfe_mv2.webp"
+        },
+        {
+            "nombre": "Insteon Micro Module",
+            "descripcion": "Receptor miniatura en 3 versiones ON/OFF,ON/OFF y Dimmer Para iluminación y Open/Close para persianas, su tamaño tan pequeño permite que se coloca detras del contacto sin tener que sustituir el apagador tradicional, o detras de la roceta del foco a controlar y/o dentro de la cubierta del motor de la persiana a controlar",
+            "imagen": "/img/532577_93471124535146f6ac5544e43c7debd7_mv2.webp"
+        }]
+    },
+    {
+        "seccion": "Antenas",
+        "producto": [
+        {
+            "nombre": "Insteon Range Extender",
+            "descripcion": "Antena de comunicación INSTEON, une las diferentes fases eléctricas y comunica equipos INSTEON de RF con la red eléctrica como el RemoteLinc. Se requiere 1 por fase, en casas muy grandes instalar 2 por fase",
+            "imagen": "/img/532577_c161eb2940f0407886c29d515577e2c9_mv2.webp"
+        },
+        {
+            "nombre": "switch"
+        }]
+    },
+    {
+        "seccion": "Sensores",
+        "producto": [
+        {
+            "nombre": "Insteon Open/Close Sensor",
+            "descripcion": "Sensor de apertura / cierre inalámbrico, el sensor es un sensor de contacto magnético que controla de forma inalámbrica las luces y aparatos en toda la casa. cuando se combina con el hub puede recibir alertas instantáneas a su teléfono inteligente cuando se abren las puertas o ventanas mientras estás fuera de casa. o añadir una sirena insteon para hacer sonar la alarma y ahuyentar a los visitantes no deseados",
+            "imagen": "/img/532577_a477268016d7456fa1a1e9dc083b873b_mv2.webp"
+        },
+        {
+            "nombre": "Insteon Hidden Door Sensor",
+            "descripcion": "Sensor de apertura / cierre inalámbrico, el sensor es un sensor de contacto magnético que controla de forma inalámbrica las luces y aparatos en toda la casa. cuando se combina con el hub puede recibir alertas instantáneas a su teléfono inteligente cuando se abren las puertas o ventanas mientras estás fuera de casa. o añadir una sirena insteon para hacer sonar la alarma y ahuyentar a los visitantes no deseados, a diferencia del otro sensor Open/Close este se instala dentro de la pared logrando así que las demás personas no se den cuenta que la puerta cuenta con un sensor de apertura/ cierre",
+            "imagen": "/img/532577_823a7322328b4327b56e1999247095e0_mv2.webp"
+        },
+        {
+            "nombre": "Insteon Motion Sensor II",
+            "descripcion": "Sensor de movimiento inalámbrico compatible con escenas para la activación de luces o alarmas basadas en el movimiento sea más fácil y confiable que nunca. el sensor de movimiento es perfecto para las áreas en su hogar donde el apagador no está cerca del área de acceso, como los armarios, y el garage. cuando se utiliza con el hub, la seguridad de su hogar es siempre segura, en casa o fuera, de día o de noche",
+            "imagen": "/img/532577_66df8cc0fb6b46bc9273b2c69ef3b06e_mv2.webp"
+        },
+        {
+            "nombre": "Insteon Leak Sensor",
+            "descripcion": "Sensor de fuga de agua, inalámbrico. Este sensor de fugas, fácil de usar y alimentado por baterías, puede proporcionar la detección temprana necesaria para evitar que las fugas causen grandes daños a su hogar",
+            "imagen": "/img/532577_310b13a29fad40b2beb01fe0e3f3677a_mv2.webp"
+        },
+        {
+            "nombre": "Insteon Smoke Bridge",
+            "descripcion": "Interfase para integrar el sensor de humo a la red INSTEON y poder realizar notificaciones o algún tipo de trigger con Insteon",
+            "imagen": "/img/532577_c161eb2940f0407886c29d515577e2c9_mv2 (1).webp"
+        },
+        {
+            "nombre": "Sensor de Humo",
+            "descripcion": "Sensor de Huno inalámbrico funciona a baterías 2AA(No Incluye Pilas) puede funcionar standalone emitiendo una alarma sonora o si se quiere recibir alertas en el celular se necesita el smoke bridge para comunicar con el hub insteon",
+            "imagen": "/img/532577_8a97fad09d394628a01702d1d82f4ad4_mv2.webp"
+        }]
+    },
+    {
+        "seccion": "Seguridad",
+        "producto": [
+        {
+            "nombre": "Insteon siren",
+            "descripcion": "Una poderosa Sirena de hasta 115 db para crear un sistema de Alerta con INSTEON. Se aparea con los sensores de INSTEON para crear un sistema customatizado de alertas, pudiendo recibir 24 ligas a dispositivos.Se conecta simplemente a un outlet común de pared y su programación es muy sencilla.Además de la Sirena, cuenta con un modo Chime (campana de aviso) con tono mas amable para alerta de situaciones menos criticas",
+            "imagen": "/img/feature-connect-to-outlet.png"
+        },
+        {
+            "nombre": "Insteon Range Extender",
+            "descripcion": "",
+            "imagen": "/img/"
+        }]
+    },
+    {
+        "seccion": "Bocinas",
+        "producto": [
+        {
+            "nombre": "Insteon Range Extender",
+            "descripcion": "",
+            "imagen": "/img/"
+        },
+        {
+            "nombre": "Insteon Range Extender",
+            "descripcion": "",
+            "imagen": "/img/"
+        }]
+    }]
+}
