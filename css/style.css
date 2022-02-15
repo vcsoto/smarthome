@@ -118,7 +118,6 @@ header button i {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .menubox ul li {
@@ -141,6 +140,12 @@ header button i {
 .menubox ul li a:hover {
     color: lightblue;
     transition: .5s;
+}
+
+@media(max-width: 810px) {
+    .menubox ul {
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
